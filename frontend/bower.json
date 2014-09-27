@@ -1,0 +1,16 @@
+{
+  "name": "sauljohnson/frontend",
+  "version": "0.1.0",
+  "homepage": "https://github.com/SaulJohnson/sauljohnson",
+  "authors": [
+    "Saul Johnson <saul.a.johnson@gmail.com>"
+  ],
+  "description": "Personal website frontend app.",
+  "keywords": [
+    "personal",
+    "website",
+    "frontend",
+    "app"
+  ],
+  "license": "MIT"
+}

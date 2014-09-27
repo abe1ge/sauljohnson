@@ -1,0 +1,60 @@
+{% extends "frontend/base.html" %}
+
+{% load staticfiles %}
+
+{% block banner %}
+<div class="banner-giant">
+	<div class="banner-giant-container">
+		<div class="banner-giant-text">
+			<img src="{% static "img/silence.svg" %}" />
+			<h3>Sometimes your PC doesn't need you.</h3>
+			<p>
+				Let it operate without you in perfect silence.
+			</p>
+			<a class="btn btn-success">What?</a>
+			<a class="btn btn-primary">GitHub</a>
+		</div>
+	</div>
+	<div class="banner-giant-divider-top"></div>
+	<div class="banner-giant-divider-bottom"></div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+	<div id="col-md-12">
+		<h1>Greetings</h1>
+		<p>
+			I'm Saul Johnson, a web developer, Windows programmer and all-round language nut who enjoys nothing more of a weekend than to
+			pick up a new programming language over a mug of hot chocolate and perhaps a biscuit or two. I make it my business to sample
+			new programming languages and frameworks as they emerge and run with them as they grow.
+		</p>
+		<h3>Fork, fork, fork</h3>
+		<div class="octocat-icecream"></div>
+		<p>
+			&quot;Come and sample a fresh scoop of my GitHub.&quot;
+		</p>
+		<p>
+			...is just one of the things I might say if I were looking for a way to include this badass picture of Octocat serving ice-cream 
+			on my homepage without it seeming out of context.
+		<p>
+			Seriously though, I have a few projects on there (mainly in Java and C#) that might be worth checking out, especially if you're into 
+			peer-to-peer networking (Denobo) or ancient web standards like RSS 2.0 (VeryRSS). The way I see it, the more pairs of eyes that look 
+			over my code, the better we as the open-source community have the chance to make it.
+		</p>
+		<p>
+			So join me over there, fork if you want to work on it, star if you like it, don't star if you don't like it or even just clone it and 
+			use it. The more the merrier!
+		</p>
+		<p>
+			<iframe src="http://ghbtns.com/github-btn.html?user=SaulJohnson&type=follow&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="256" height="20"></iframe>
+		</p>
+		<h3>Don't be a stranger!</h3>
+		<p>
+			I maintain <a href="#">a blog called C-flat</a> and I'm <a target="_blank" href="https://www.linkedin.com/profile/view?id=323695094">on LinkedIn</a>.
+			In case you want to contact me personally, you can get in touch via my <a href="{% url 'frontend.views.contact' %}">contact page</a>. I do not use my Facebook and Google+ accounts
+			for anything aside from family and friends.
+		</p>
+	</div>
+</div>
+{% endblock %}

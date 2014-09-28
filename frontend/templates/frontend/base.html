@@ -57,17 +57,26 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<h4>Legal and Misc.</h4>
+					<h4>Tools</h4>
+					<ul>
+						<li><a href="http://blogs.telegraph.co.uk/technology/willardfoxton2/100011290/the-government-wants-to-teach-all-children-how-to-code-heres-why-its-a-stupid-idea/">This guy</a></li>
+						<li><a href="{% url 'frontend.views.terms' %}">Terms of Use (Boring)</a></li>
+						<li><a href="{% url 'frontend.views.privacy' %}">Privacy Policy (Also Boring)</a></li>
+						<li><a href="{% url 'frontend.views.login' %}">Admin Login (Mine)</a></li>
+					</ul>
 				</div>
 				<div class="col-md-4">
 					<h4>Contact Me</h4>
 					<ul>
 						<li>Any complaints, questions or compliments are very welcome. To send them to me, please fill out the form on my <a href="{% url 'frontend.views.contact' %}">contact page</a>.</li>
-						<li>Spam and flame is welcome via <a href="http://bit.ly/1c9vo1S">this alternative contact page</a>.</li>
+						<li>Spam and flame is also welcome via <a href="http://bit.ly/1c9vo1S">this alternative contact page</a>.</li>
 					</ul>
 				</div>
-				<div class="col-md-4">
-					<h4>Social</h4>
+				<div class="col-md-4 buffer-bottom">
+					<h4>Communities</h4>
+					<a target="_blank" href="{% url 'frontend.views.linkedin' %}"><img src="{% static "img/linkedin.svg" %}" /></a>
+					<img class="buffer-left" src="{% static "img/twitter.svg" %}" />
+					<img class="buffer-left" src="{% static "img/github.svg" %}" />
 				</div>
 			</div>
 		</div>

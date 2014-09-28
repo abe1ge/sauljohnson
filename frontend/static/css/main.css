@@ -1,12 +1,18 @@
 html {
   min-width: 480px;
 }
+body {
+  margin-bottom: 50px;
+}
 .banner-divider {
   height: 1px;
   width: 100%;
   position: absolute;
   left: 0;
   background: rgba(0, 0, 0, 0.4);
+}
+.buffer-left {
+  margin-left: 10px;
 }
 .banner-giant {
   position: relative;

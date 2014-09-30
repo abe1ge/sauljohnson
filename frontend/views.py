@@ -21,6 +21,9 @@ def linkedin(request):
 def me_and_the_web(request):
 	return render_to_response('frontend/me-and-the-web.html', locals())
 
+def me_and_the_desktop(request):
+	return render_to_response('frontend/me-and-the-desktop.html', locals())
+
 # Projects
 
 def silence(request):
@@ -34,3 +37,6 @@ def flatfolio(request):
 
 def denobo(request):
 	return render_to_response('frontend/denobo.html', locals())	
+
+def veryrss(request):
+	return render_to_response('frontend/veryrss.html', locals())	

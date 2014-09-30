@@ -40,17 +40,18 @@
 						<li class="dropdown">
 						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Desktop <span class="caret"></span></a>
 						  <ul class="dropdown-menu" role="menu">
-						    <li><a href="#">Me and the Desktop</a></li>
+						    <li><a href="{% url 'frontend.views.me_and_the_desktop' %}">Me and the Desktop</a></li>
 						    <li class="divider"></li>
 						    <li class="dropdown-header">.NET</li>
 						    <li><a href="{% url 'frontend.views.silence' %}">Silence</a></li>
-						    <li><a href="{% url 'frontend.views.flatfolio' %}">VeryRSS</a></li>
+						    <li><a href="{% url 'frontend.views.veryrss' %}">VeryRSS</a></li>
 						    <li class="divider"></li>
 						    <li class="dropdown-header">Java</li>
 						    <li><a href="{% url 'frontend.views.denobo' %}">Denobo</a></li>
 						  </ul>
 						</li>
 						<li><a href="{% url 'frontend.views.contact' %}">Contact</a></li>
+						<li><a href="{% url 'frontend.views.contact' %}">Blog</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						{#<li><a href="#">Link</a></li>#}

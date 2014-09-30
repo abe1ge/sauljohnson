@@ -47,15 +47,26 @@ body {
 
 	&-divider {
 	    &-bottom {
-	    	.banner-divider;
+	    	.banner-divider();
 	    	bottom: 0;
 	    }
 
 	    &-top {
-	    	.banner-divider;
+	    	.banner-divider();
 	    	top: 0;
 	    }
 	}
+}
+
+.banner-small {
+	position: relative;
+	top: 0;
+	left: 0;
+	background-image: url(../img/clean_cover_4.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 48px;
+	margin-top: 45px;
 }
 
 .banner-giant-purple {
@@ -65,7 +76,7 @@ body {
 
 .banner-giant-green {
 	.banner-giant();
-	background-image: url(../img/clean_cover_2.jpg);
+	background-image: url(../img/clean_cover_2.jpg); 
 }
 
 .banner-giant-green {
@@ -91,8 +102,4 @@ body {
     background-size: 100% 100%;
     float: right;
     margin-left: 25px;
-}
-
-.app-logos > div {
-	text-align: center;
 }

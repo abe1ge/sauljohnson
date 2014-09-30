@@ -1,0 +1,32 @@
+{% extends "frontend/base.html" %}
+
+{% load staticfiles %}
+
+{% block banner %}
+<div class="banner-giant-purple">
+	<div class="banner-giant-container">
+		<div class="banner-giant-text">
+			<img src="{% static "img/silence.svg" %}" />
+			<h3>For when your PC doesn't need you.</h3>
+			<p>
+				A simple, clean keyboard and mouse recorder in C#.
+			</p>
+			<a class="btn btn-default">Download</a>
+			<a class="btn btn-primary" target="_blank" href="https://github.com/SaulJohnson/Silence">GitHub</a>
+		</div>
+	</div>
+	<div class="banner-giant-divider-top"></div>
+	<div class="banner-giant-divider-bottom"></div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+	<div class="col-md-12">
+		<h1>VeryRSS</h1>
+		<p>
+			Lorem.
+		</p>
+	</div>
+</div>
+{% endblock %}

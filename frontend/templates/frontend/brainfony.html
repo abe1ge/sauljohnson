@@ -1,0 +1,57 @@
+{% extends "frontend/base.html" %}
+
+{% load staticfiles %}
+
+{% block banner %}
+<div class="banner-giant-green">
+	<div class="banner-giant-container">
+		<div class="banner-giant-text">
+			<img src="{% static "img/brainfony.svg" %}" />
+			<h3>The next big thing in web dev.</h3>
+			<p>
+				Lol not really.
+			</p>
+			<a class="btn btn-default">Download</a>
+			<a class="btn btn-primary" target="_blank" href="https://github.com/SaulJohnson/Silence">GitHub</a>
+		</div>
+	</div>
+	<div class="banner-giant-divider-top"></div>
+	<div class="banner-giant-divider-bottom"></div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+	<div class="col-md-12">
+		<h1>Brainfony</h1>
+		<div class="alert alert-danger">
+			<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			<p>
+				<b>Whoa, whoa, whoa...</b>
+			</p>
+			<p>
+				Before you get all up in my grill about this page, please relax. Symfony2 is a very well-architected framework with a whole lot of awesome people working on
+				it. It's just that sometimes it makes me want to stick my head in the water cooler. Also this page contains bad language, ye be warned.
+			</p>
+		</div>
+		<p>
+			There have been times when I've been working with Symfony2 when I've been trying to determine which of my bundles contains the controller that renders a template
+			for a sub-request in a Twig file nested 15 levels deep that I find myself longing for something else. Anything else. Even if that something slows my progress to a
+			crawl, I'll at least be moving forward.
+		</p>
+		<p>
+			This is where Brainfony comes in. Now I can code for the web in Brainfuck, a programming language with so much untapped power ready to be unleashed into the wonderful world
+			of web development. I'm not going to document the language here, but I will provide a hello world program so you can see just how sadistic a Turing-complete language
+			can get. I hope this will pique your curiosity and get you to look at the <a target="_blank" href="http://en.wikipedia.org/wiki/Brainfuck">delightful page Wikipedia has</a> on the subject.
+		</p>	
+		<pre>++++++++[&gt;++++[&gt;++&gt;+++&gt;+++&gt;+&lt;&lt;&lt;&lt;-]&gt;+&gt;+&gt;-&gt;&gt;+[&lt;]&lt;-]&gt;&gt;.&gt;---.+++++++..+++.&gt;&gt;.&lt;-.&lt;.+++.------.--------.&gt;&gt;+.&gt;++.</pre>
+		<p>
+			This is my first project to be released under the <a target="_blank" href="http://www.wtfpl.net/about/">WTFPL</a> license. 
+		</p>
+		<h2>Get it!</h2>
+		<p>
+			Info about getting it.
+		</p>
+	</div>
+</div>
+{% endblock %}

@@ -26,15 +26,28 @@
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="{% url 'frontend.views.index' %}">About</a></li>
 						<li class="dropdown">
-						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <span class="caret"></span></a>
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Web <span class="caret"></span></a>
 						  <ul class="dropdown-menu" role="menu">
-						    <li><a href="#">Action</a></li>
-						    <li><a href="#">Another action</a></li>
-						    <li><a href="#">Something else here</a></li>
+						    <li><a href="{% url 'frontend.views.me_and_the_web' %}">Me and the Web</a></li>
 						    <li class="divider"></li>
-						    <li><a href="#">Separated link</a></li>
+						    <li class="dropdown-header">Serious projects</li>
+						    <li><a href="{% url 'frontend.views.flatfolio' %}">Flatfolio</a></li>
 						    <li class="divider"></li>
-						    <li><a href="#">One more separated link</a></li>
+						    <li class="dropdown-header">Pointless projects</li>
+						    <li><a href="{% url 'frontend.views.brainfony' %}">Brainfony</a></li>
+						  </ul>
+						</li>
+						<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Desktop <span class="caret"></span></a>
+						  <ul class="dropdown-menu" role="menu">
+						    <li><a href="#">Me and the Desktop</a></li>
+						    <li class="divider"></li>
+						    <li class="dropdown-header">.NET</li>
+						    <li><a href="{% url 'frontend.views.silence' %}">Silence</a></li>
+						    <li><a href="{% url 'frontend.views.flatfolio' %}">VeryRSS</a></li>
+						    <li class="divider"></li>
+						    <li class="dropdown-header">Java</li>
+						    <li><a href="{% url 'frontend.views.denobo' %}">Denobo</a></li>
 						  </ul>
 						</li>
 						<li><a href="{% url 'frontend.views.contact' %}">Contact</a></li>
@@ -56,10 +69,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<h4>Tools</h4>
 					<ul>
-						<li><a href="http://blogs.telegraph.co.uk/technology/willardfoxton2/100011290/the-government-wants-to-teach-all-children-how-to-code-heres-why-its-a-stupid-idea/">This guy</a></li>
+						<li><a target="_blank" href="http://blogs.telegraph.co.uk/technology/willardfoxton2/100011290/the-government-wants-to-teach-all-children-how-to-code-heres-why-its-a-stupid-idea/">This guy</a></li>
 						<li><a href="{% url 'frontend.views.terms' %}">Terms of Use (Boring)</a></li>
 						<li><a href="{% url 'frontend.views.privacy' %}">Privacy Policy (Also Boring)</a></li>
 						<li><a href="{% url 'frontend.views.login' %}">Admin Login (Mine)</a></li>
@@ -72,7 +85,7 @@
 						<li>Spam and flame is also welcome via <a href="http://bit.ly/1c9vo1S">this alternative contact page</a>.</li>
 					</ul>
 				</div>
-				<div class="col-md-4 buffer-bottom">
+				<div class="col-md-5 buffer-bottom">
 					<h4>Communities</h4>
 					<a target="_blank" href="{% url 'frontend.views.linkedin' %}"><img src="{% static "img/linkedin.svg" %}" /></a>
 					<img class="buffer-left" src="{% static "img/twitter.svg" %}" />

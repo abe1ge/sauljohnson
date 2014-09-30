@@ -1,0 +1,36 @@
+{% extends "frontend/base.html" %}
+
+{% load staticfiles %}
+
+{% block banner %}
+<div class="banner-giant-turquoise">
+	<div class="banner-giant-container">
+		<div class="banner-giant-text">
+			<img src="{% static "img/flatfolio.svg" %}" />
+			<h3>You don't need to database.</h3>
+			<p>
+				Showcase your art sans the SQL.
+			</p>
+			<a class="btn btn-default">Download</a>
+			<a class="btn btn-primary" target="_blank" href="https://github.com/SaulJohnson/Silence">GitHub</a>
+		</div>
+	</div>
+	<div class="banner-giant-divider-top"></div>
+	<div class="banner-giant-divider-bottom"></div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+	<div class="col-md-12">
+		<h1>Flatfolio</h1>
+		<p>
+			Description lorem ipsum.
+		</p>
+		<h2>Get it!</h2>
+		<p>
+			Info about getting it.
+		</p>
+	</div>
+</div>
+{% endblock %}

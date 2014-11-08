@@ -26,6 +26,7 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Mandrill key: jUBypA2OG1
 
 # Application definition
 
@@ -44,6 +45,7 @@ THIRD_PARTY_APPS = (
 
 LOCAL_APPS = (
     'frontend',
+    'blog',
 )
 
 INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS

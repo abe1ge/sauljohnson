@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   id="svg3623"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="veryrss.svg">
+  <title
+     id="title2823">RSS Feed</title>
+  <defs
+     id="defs3625">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3631" />
+    <inkscape:perspective
+       id="perspective3668"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="9.3928607"
+     inkscape:cy="35.285728"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata3628">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>RSS Feed</dc:title>
+        <dc:date>2010-06-20=1389-03-30</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>kevinaj</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Alinn</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>Taftish.wordpres.com</dc:description>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>openclipart.org</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(39.285761,-993.64793)">
+    <g
+       id="g3047"
+       transform="matrix(0.44247787,0,0,0.44247788,-21.902681,609.73291)">
+      <path
+         transform="matrix(1.7936508,0,0,1.9316239,613.60313,907.7981)"
+         d="m -238,37.714294 c 0,32.308658 -28.20606,58.5 -63,58.5 -34.79394,0 -63,-26.191342 -63,-58.5 0,-32.3086574 28.20606,-58.5 63,-58.5 34.79394,0 63,26.1913426 63,58.5 z"
+         sodipodi:ry="58.5"
+         sodipodi:rx="63"
+         sodipodi:cy="37.714294"
+         sodipodi:cx="-301"
+         id="path3045"
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <g
+         style="fill:#ffffff;stroke:none"
+         transform="matrix(0.85786803,0,0,0.85786803,10.477149,139.38142)"
+         id="g2817">
+        <g
+           id="g2293"
+           transform="matrix(0,-0.8040817,-0.8040817,0,621.52767,1874.8442)"
+           style="fill:#ffffff;fill-opacity:1;stroke:none"
+           inkscape:transform-center-x="-157.14286"
+           inkscape:transform-center-y="425.71432">
+          <circle
+             d="m 92,189 c 0,13.25483 -10.745166,24 -24,24 -13.254834,0 -24,-10.74517 -24,-24 0,-13.25483 10.745166,-24 24,-24 13.254834,0 24,10.74517 24,24 z"
+             transform="translate(980.57143,555.79075)"
+             id="circle26"
+             r="24"
+             cy="189"
+             cx="68"
+             sodipodi:cx="68"
+             sodipodi:cy="189"
+             sodipodi:rx="24"
+             sodipodi:ry="24"
+             style="fill:#ffffff;fill-opacity:1;stroke:none" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path28"
+             d="m 1140.5714,768.79075 -34,0 c 0,-45.28735 -36.7126,-82 -82,-82 l 0,-34 c 64.0651,0 116,51.93497 116,116 z"
+             style="fill:#ffffff;fill-opacity:1;stroke:none" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path30"
+             d="m 1164.5714,768.79075 c 0,-77.31986 -62.6801,-140 -140,-140 l 0,-35 c 96.6499,0 175,78.35017 175,175 l -35,0 z"
+             style="fill:#ffffff;fill-opacity:1;stroke:none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

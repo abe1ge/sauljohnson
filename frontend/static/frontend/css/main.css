@@ -22,7 +22,7 @@ body {
   background-size: cover;
   width: 100%;
   height: 300px;
-  margin-top: 45px;
+  margin-top: 62px;
 }
 .banner-giant-container {
   height: 300px;
@@ -35,6 +35,7 @@ body {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  color: black;
 }
 .banner-giant-divider-bottom {
   height: 1px;
@@ -70,7 +71,7 @@ body {
   background-size: cover;
   width: 100%;
   height: 300px;
-  margin-top: 45px;
+  margin-top: 62px;
   background-image: url(../img/clean_cover_5.jpg);
 }
 .banner-giant-purple-container {
@@ -84,6 +85,7 @@ body {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  color: black;
 }
 .banner-giant-purple-divider-bottom {
   height: 1px;
@@ -109,7 +111,7 @@ body {
   background-size: cover;
   width: 100%;
   height: 300px;
-  margin-top: 45px;
+  margin-top: 62px;
   background-image: url(../img/clean_cover_2.jpg);
 }
 .banner-giant-green-container {
@@ -123,6 +125,7 @@ body {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  color: black;
 }
 .banner-giant-green-divider-bottom {
   height: 1px;
@@ -148,7 +151,7 @@ body {
   background-size: cover;
   width: 100%;
   height: 300px;
-  margin-top: 45px;
+  margin-top: 62px;
   background-image: url(../img/clean_cover_2.jpg);
 }
 .banner-giant-green-container {
@@ -162,6 +165,7 @@ body {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  color: black;
 }
 .banner-giant-green-divider-bottom {
   height: 1px;
@@ -187,7 +191,7 @@ body {
   background-size: cover;
   width: 100%;
   height: 300px;
-  margin-top: 45px;
+  margin-top: 62px;
   background-image: url(../img/clean_cover_7.jpg);
 }
 .banner-giant-turquoise-container {
@@ -201,6 +205,7 @@ body {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  color: black;
 }
 .banner-giant-turquoise-divider-bottom {
   height: 1px;
@@ -226,7 +231,7 @@ body {
   background-size: cover;
   width: 100%;
   height: 300px;
-  margin-top: 45px;
+  margin-top: 62px;
   background-image: url(../img/clean_cover_8.jpg);
 }
 .banner-giant-orangestripe-container {
@@ -240,6 +245,7 @@ body {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  color: black;
 }
 .banner-giant-orangestripe-divider-bottom {
   height: 1px;
@@ -265,7 +271,7 @@ body {
   background-size: cover;
   width: 100%;
   height: 300px;
-  margin-top: 45px;
+  margin-top: 62px;
   background-image: url(../img/clean_cover_9.jpg);
 }
 .banner-giant-orangeblend-container {
@@ -279,6 +285,7 @@ body {
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+  color: black;
 }
 .banner-giant-orangeblend-divider-bottom {
   height: 1px;

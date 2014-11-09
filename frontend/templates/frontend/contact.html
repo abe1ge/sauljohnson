@@ -2,6 +2,8 @@
 
 {% load staticfiles %}
 
+{% block title %}Contact{% endblock %}
+
 {% block banner %}
 <div class="banner-small">
 	<div class="banner-giant-divider-top"></div>
@@ -14,7 +16,7 @@
 	<div class="col-md-12">
 		<h1>Contact</h1>
 		<p>
-			I try my best to respond to all legitimate questions, compliments or complaints. I make a point of completely ignoring spam or 
+			I try my best to respond to all legitimate questions, compliments or complaints. I make a point of completely ignoring spam or
 			flamebait. Please don't ask me to buy your product or review your product or try to convert me to your religion or sell me cheap medication. I'll just ignore it.
 		</p>
 		{% if post %}
@@ -43,7 +45,7 @@
 				</div>
 			{% endif %}
 		{% endif %}
-	</div> 
+	</div>
 </div>
 <form method="post">
 	{% csrf_token %}

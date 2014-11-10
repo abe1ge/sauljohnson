@@ -12,5 +12,6 @@
     "frontend",
     "app"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }

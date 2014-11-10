@@ -4,6 +4,22 @@
 
 {% block title %}Denobo{% endblock %}
 
+{% block styles %}
+<link rel="stylesheet" href="{% static "frontend/bower_components/SyntaxHighlighter/styles/shCore.css" %}" />
+<link rel="stylesheet" href="{% static "frontend/bower_components/SyntaxHighlighter/styles/shThemeDefault.css" %}" />
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="{% static "frontend/bower_components/SyntaxHighlighter/scripts/XRegExp.js" %}"></script>
+<script type="text/javascript" src="{% static "frontend/bower_components/SyntaxHighlighter/scripts/shCore.js" %}"></script>
+<script type="text/javascript" src="{% static "frontend/bower_components/SyntaxHighlighter/scripts/shBrushJava.js" %}"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		SyntaxHighlighter.all();
+	});
+</script>
+{% endblock %}
+
 {% block banner %}
 <div class="banner-giant-orangestripe">
 	<div class="banner-giant-container">
@@ -13,8 +29,8 @@
 			<p>
 				Multi-agent middleware for the Java platform.
 			</p>
-			<a class="btn btn-default">Download</a>
-			<a class="btn btn-primary">GitHub</a>
+			<a class="btn btn-default" href="https://github.com/SaulJohnson/Denobo/archive/master.zip">Download</a>
+			<a class="btn btn-primary" target="_blank" href="https://github.com/SaulJohnson/Denobo">GitHub</a>
 		</div>
 	</div>
 	<div class="banner-giant-divider-top"></div>
@@ -26,6 +42,40 @@
 <div class="row">
 	<div class="col-md-12">
 		<h1>Denobo</h1>
+		<p>
+			Put together a multi-agent system at lightning speed, connecting agents
+			in a network on the local machine, across VMs or even across network sockets and
+			the internet. Just spin up a couple of agents:
+		</p>
+		<pre class="brush: java">Agent myFirstAgent = new Agent("agent1");
+Agent mySecondAgent = new Agent("agent2");
+myFirstAgent.connectAgent(mySecondAgent);</pre>
+		<p>
+			Throw a handler on one of them:
+		</p>
+<pre class="brush: java">myFirstAgent.addMessageHandler(new MessageHandler() {
+
+	@Override
+	public void messageRecieved(Agent agent, Message message) {
+		System.out.println("We recieved: '" + message.getData() + "' from '" +
+			message.getOriginator() + "'!");
+	}
+
+});</pre>
+		<p>
+			And send messages between them containing any data you like until your heart's content,
+			referring to your agents by nothing but their name:
+		</p>
+<pre class="brush: java">mySecondAgent.sendMessage("agent1", "Hello World!");</pre>
+		<h2>Get it!</h2>
+		<p>
+			Because this was originally designed for my second-year university project, you can find
+			all the information you need in the obscene amount of JavaDoc in the source code and the
+			accompanying quickstart guide. Grab all of those goodies and more from
+			<a target="_blank" href="https://github.com/SaulJohnson/Denobo">GitHub</a>.
+			A special thank-you to Alex Mullen and Lee Oliver for their incredible efforts and contribution
+			as my teammates on this project.
+		</p>
 	</div>
 </div>
 {% endblock %}

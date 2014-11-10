@@ -7,8 +7,10 @@
 		<link rel="stylesheet" type="text/css" href="{% static "frontend/bower_components/bootstrap/dist/css/bootstrap.min.css" %}" />
 		<link rel="stylesheet" type="text/css" href="http://bootswatch.com/sandstone/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="{% static "frontend/css/main.css" %}" />
+		{% block styles %}{% endblock %}
 		<script type="text/javascript" src="{% static "frontend/bower_components/jquery/dist/jquery.min.js" %}"></script>
 		<script type="text/javascript" src="{% static "frontend/bower_components/bootstrap/dist/js/bootstrap.min.js" %}"></script>
+		{% block scripts %}{% endblock %}
 	</head>
 	<body>
   		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -78,6 +80,9 @@
 						<li><a href="{% url 'frontend.views.privacy' %}">Privacy Policy (Also Boring)</a></li>
 						<li><a href="{% url 'frontend.views.login' %}">Admin Login (Mine)</a></li>
 					</ul>
+					<div class="hidden-lg">
+						<hr>
+					</div>
 				</div>
 				<div class="col-md-4">
 					<h4>Contact Me</h4>
@@ -85,6 +90,9 @@
 						<li>Any complaints, questions or compliments are very welcome. To send them to me, please fill out the form on my <a href="{% url 'frontend.views.contact' %}">contact page</a>.</li>
 						<li>Spam and flame is also welcome via <a href="http://bit.ly/1c9vo1S">this alternative contact page</a>.</li>
 					</ul>
+				</div>
+				<div class="hidden-lg">
+					<hr>
 				</div>
 				<div class="col-md-5 buffer-bottom">
 					<h4>Communities</h4>

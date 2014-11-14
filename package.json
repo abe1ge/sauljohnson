@@ -20,9 +20,9 @@
     "url": "https://github.com/SaulJohnson/sauljohnson/issues"
   },
   "homepage": "https://github.com/SaulJohnson/sauljohnson",
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^3.8.8",
     "gulp-coffee": "^2.2.0",
     "gulp-less": "^1.3.6"
-  },
+  }
 }

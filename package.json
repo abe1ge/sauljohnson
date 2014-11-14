@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/SaulJohnson/sauljohnson",
   "dependencies": {
+    "bower": "^1.3.12",
     "gulp": "^3.8.8",
     "gulp-coffee": "^2.2.0",
     "gulp-less": "^1.3.6"

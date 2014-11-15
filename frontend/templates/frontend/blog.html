@@ -1,12 +1,19 @@
-{% extends "blog/base.html" %}
+{% extends "frontend/base.html" %}
 
 {% load staticfiles %}
+
+{% block title %}Blog{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src=""></script>
+<script type="text/javascript" src="{% static "frontend/js/blog.js" %}"></script>
+{% endblock %}
 
 {% block banner %}
 <div class="banner-giant-music">
   <div class="banner-giant-container">
     <div class="banner-giant-text">
-      <img src="{% static "blog/img/c_flat.svg" %}" />
+      <img src="{% static "frontend/img/c_flat.svg" %}" />
       <h3>Off-key programming at its least tuneful.</h3>
       <p>
         When fate plays the trumpet not very well, a coder like me is born.
@@ -22,8 +29,8 @@
 
 {% block content %}
 <div class="row">
-  <div class="col-md-12">
-    YOOOOO
+  <div class="col-md-12 js-blog-posts">
+
   </div>
 </div>
 {% endblock %}

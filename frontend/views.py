@@ -5,6 +5,9 @@ from django.core.exceptions import ValidationError
 def index(request):
 	return render_to_response('frontend/index.html', locals())
 
+def blog(request):
+	return render_to_response('frontend/blog.html', locals())
+
 def contact(request):
 	errors = []
 	if request.POST:

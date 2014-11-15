@@ -15,7 +15,7 @@ loadBlog = () ->
     $.getJSON getUrl, (data) ->
         target = $ ".js-blog-posts"
         for item in data.items
-            target.prepend(buildItemHtml item)
+            target.append(buildItemHtml item)
 
 $(document).ready () ->
     loadBlog()

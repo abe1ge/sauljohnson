@@ -24,7 +24,7 @@
       _results = [];
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         item = _ref[_i];
-        _results.push(target.prepend(buildItemHtml(item)));
+        _results.push(target.append(buildItemHtml(item)));
       }
       return _results;
     });

@@ -5,19 +5,18 @@
 {% block title %}Denobo{% endblock %}
 
 {% block styles %}
-<link rel="stylesheet" href="{% static "frontend/bower_components/SyntaxHighlighter/styles/shCore.css" %}" />
-<link rel="stylesheet" href="{% static "frontend/bower_components/SyntaxHighlighter/styles/shThemeDefault.css" %}" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/zenburn.min.css">
+<style type="text/css">
+	pre {
+		background: #3f3f3f;
+		border: 1px solid #303030;
+	}
+</style>
 {% endblock %}
 
 {% block scripts %}
-<script type="text/javascript" src="{% static "frontend/bower_components/SyntaxHighlighter/scripts/XRegExp.js" %}"></script>
-<script type="text/javascript" src="{% static "frontend/bower_components/SyntaxHighlighter/scripts/shCore.js" %}"></script>
-<script type="text/javascript" src="{% static "frontend/bower_components/SyntaxHighlighter/scripts/shBrushJava.js" %}"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		SyntaxHighlighter.all();
-	});
-</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 {% endblock %}
 
 {% block banner %}
@@ -47,13 +46,13 @@
 			in a network on the local machine, across VMs or even across network sockets and
 			the internet. Just spin up a couple of agents:
 		</p>
-		<pre class="brush: java">Agent myFirstAgent = new Agent("agent1");
+		<pre><code class="java">Agent myFirstAgent = new Agent("agent1");
 Agent mySecondAgent = new Agent("agent2");
-myFirstAgent.connectAgent(mySecondAgent);</pre>
+myFirstAgent.connectAgent(mySecondAgent);</code></pre>
 		<p>
 			Throw a handler on one of them:
 		</p>
-<pre class="brush: java">myFirstAgent.addMessageHandler(new MessageHandler() {
+<pre><code class="java">myFirstAgent.addMessageHandler(new MessageHandler() {
 
 	@Override
 	public void messageRecieved(Agent agent, Message message) {
@@ -61,12 +60,12 @@ myFirstAgent.connectAgent(mySecondAgent);</pre>
 			message.getOriginator() + "'!");
 	}
 
-});</pre>
+});</code></pre>
 		<p>
 			And send messages between them containing any data you like until your heart's content,
 			referring to your agents by nothing but their name:
 		</p>
-<pre class="brush: java">mySecondAgent.sendMessage("agent1", "Hello World!");</pre>
+<pre><code class="java">mySecondAgent.sendMessage("agent1", "Hello World!");</code></pre>
 		<h2>Get it!</h2>
 		<p>
 			Because this was originally designed for my second-year university project, you can find

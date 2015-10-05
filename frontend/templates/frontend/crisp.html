@@ -1,0 +1,36 @@
+{% extends "frontend/base.html" %}
+
+{% load staticfiles %}
+
+{% block title %}Crisp{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src=""></script>
+<script type="text/javascript" src="{% static "frontend/js/blog-crisp.js" %}"></script>
+{% endblock %}
+
+{% block banner %}
+<div class="banner-giant-music">
+  <div class="banner-giant-container">
+    <div class="banner-giant-text">
+      <img src="{% static "frontend/img/c_flat.svg" %}" />
+      <h3>My final year project blog.</h3>
+      <p>
+        Written in Blogger, hacked onto here with duct tape.
+      </p>
+      <a class="btn btn-default" href="http://crisp-sj.blogspot.co.uk/">Blogger</a>
+      <a class="btn btn-warning" target="_blank" href="http://crisp-sj.blogspot.com/feeds/posts/default">Atom</a>
+    </div>
+  </div>
+  <div class="banner-giant-divider-top"></div>
+  <div class="banner-giant-divider-bottom"></div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-md-12 js-blog-posts">
+
+  </div>
+</div>
+{% endblock %}

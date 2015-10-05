@@ -12,6 +12,7 @@ urlpatterns = patterns('',
     url(r'denobo$', 'frontend.views.denobo'),
     url(r'veryrss$', 'frontend.views.veryrss'),
     url(r'blog$', 'frontend.views.blog'),
+    url(r'crisp$', 'frontend.views.crisp'),
     url(r'me-and-the-web$', 'frontend.views.me_and_the_web'),
     url(r'me-and-the-desktop$', 'frontend.views.me_and_the_desktop'),
 )

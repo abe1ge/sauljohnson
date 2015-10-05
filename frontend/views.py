@@ -24,6 +24,13 @@ def blog(request):
 	"""
 	return render_to_response('frontend/blog.html', locals())
 
+def crisp(request):
+	"""Crisp page
+	
+	Page for my final year project blog. Once again, no blog engine involved.
+	"""
+	return render_to_response('frontend/crisp.html', locals())
+	
 def contact(request):
 	"""Contact page
 
